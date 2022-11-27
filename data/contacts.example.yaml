@@ -1,0 +1,10 @@
+- title: +55 (555) 555-555
+  link: tel:+55555555555
+- title: email@example.com
+  link: mailto:email@example.com
+- title: github.com/calimaborges
+  link: https://github.com/calimaborges/
+- title: linkedin.com/in/calimaborges
+  link: https://linkedin.com/in/calimaborges/
+- title: carlosborg.es
+  link: https://carlosborg.es/

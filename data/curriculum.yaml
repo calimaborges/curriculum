@@ -1,0 +1,146 @@
+personal:
+  title: Carlos Augusto Borges
+  subtitle: Full Stack Developer
+  location: Brasilia, Federal District, Brazil
+summary:
+  - Full stack developer, specialized in Node.js, React and Typescript web applications. Working in the technology industry since 2009, mainly with PHP, Java and JavaScript using multiple frameworks and libraries.
+  - Additionally, due to Linux administration background, recently accepted the challenge to lead a DevOps team, adopting infrastructure as code using Terraform, Ansible, and Kubernetes.
+  # - Enjoys solving any technology problems in a simple yet scalable manner.
+work_history:
+  - role: Co-founder (Full stack and DevOps Engineer)
+    organization: Dominia (https://dominia.app)
+    period:
+      from: jan 2021
+      to: present
+    info:
+      - DevOps - Kubernetes cluster management (Github actions, K3S and Terraform)
+      - Fulltack - React, Next.js, Typescript, Elastic Search, MongoDB
+    tags:
+      - react
+      - next.js
+      - typescript
+      - mongodb
+      - elastic search
+  - role: DevOps Engineer
+    organization: Brazilian Superior Court of Labour
+    period:
+      from: apr 2021
+      to: present
+    achievments:
+      - Led development of CI/CD pipeline for Terraform and Ansible
+    info:
+      - Migration to Cloud infrastructure (AWS)
+      - Infrastructure as Code (Ansible and Terraform) script development
+      - Kubernetes and Openshift (OKD) cluster maintanence
+      - Legacy server maintanence (JBoss 4, 5, 6, Apache, PHP)
+    tags:
+      - aws
+      - ansible
+      - terraform
+      - kubernetes
+      - openshift
+      - jboss
+  - role: Full stack Developer
+    organization: Brazilian Superior Court of Labour
+    period:
+      from: fev 2014
+      to: apr 2021
+    achievments:
+      - Led the adoption of Git withing the institution.
+      - Created script to automatically configure Linux machine for developers. Leading to a considerable reduction in setup time for new environments.
+      - Led a more active Open Source culture within the institution through presentations. Leading to the eSocial-JT project (https://github.com/tst-labs/esocial), used by other government agencies and companies.
+      - Developed CI/CD helper scripts leading to a considerable reduction in setup time for new Java or JavaScript projects.
+    info:
+      - Event management system (Java and JavaScript — React)
+      - Unified notification system (Node.js and React — Server Sent Event)
+      - Retired and pensioner management system (Java EE and JavaScript — React, Redux)
+      - Precatory payment and management system (Java and JavaScript — AngularJS)
+      - Legacy code maintenance (Java — JSF, Struts, JBoss Seam)
+    tags:
+      - java
+      - javascript
+      - react
+      - node.js
+      - angularjs
+  - role: Mobile Developer
+    organization: small team
+    period:
+      from: mid 2017
+      to: end 2017
+    info:
+      - Second place on Legislative Challenge (http://desafio.leg.br/) with project Aprovometro
+      - Developed Mobile app using Ionic framework (Angular, TypeScript)
+    tags:
+      - angular
+      - typescript
+      - ionic
+  - role: Mobile Developer / DevOps
+    organization: P21
+    period:
+      from: beg 2016
+      to: beg 2017
+    info:
+      - Freelancer mobile developer - App CRA21 — iOS (Swift) and Android (Java)
+      - Linux server administration consultant (Linux — AWS and Locaweb)
+    tags:
+      - ios
+      - swift
+      - java
+      - android
+      - aws
+  - role: Co-founder
+    organization: Quiborgue
+    period:
+      from: mid 2015
+      to: mid 2016
+    info:
+      - PHP, Laravel backend - developed system to manage techincal follow ups visits
+      - Java and Android - developed Android client for system to manage techincal follow ups visits
+      - PHP and Laravel backend - developed system to monitor car fleet
+      - Android webview - developed system to monitor car fleet
+    tags:
+      - php
+      - android
+      - java
+      - laravel
+  - role: Web Developer
+    organization: Capes
+    period:
+      from: mid 2012
+      to: beg 2014
+    info:
+      - Performance and code quality improvement for candidate management system for Ciência sem Fronteiras
+      - Candidate subscription and analysis system maintenance — SICAPES (PHP)
+    tags:
+      - php
+  - role: Open Source
+    info:
+      - Bug fix for React notification library (https://github.com/chadly/react-bs-notifier)
+      - Co-author eSocial (https://github.com/tst-labs/esocial)
+    tags:
+      - react
+      - java
+      - springboot
+  - role: Other experiences
+    period:
+      from: 2005
+      to: 2012
+    info:
+      - "More than 7 years programming in multiple languages and frameworks such as: PHP, Java, Oracle Forms e Reports, Adobe Flash, C/C++, QT and Linux system administration."
+    tags:
+      - php
+      - laravel
+      - java
+      - python
+      - django
+      - linux
+education:
+  - institute: Universidade de Brasília
+    info: Computation 2011
+  - institute: Casa Thomas Jefferson
+    info: Advanced English
+technologies:
+  - JavaScript/ES6, TypeScript, Node.js, Java, PHP, Python
+  - React, React Router, Next.js, Redux, Webpack, Jest
+  - Android, iOS, React Native
+  - Linux, Heroku, AWS, Digital Ocean, Cloudflare, Docker, Kubernetes, Ansible, Terraform

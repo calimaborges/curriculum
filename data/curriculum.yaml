@@ -21,6 +21,7 @@ work_history:
       - typescript
       - mongodb
       - elasticsearch
+      - kubernetes
   - role: DevOps Engineer
     organization: Brazilian Superior Court of Labour
     period:

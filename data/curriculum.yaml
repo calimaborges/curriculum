@@ -14,13 +14,13 @@ work_history:
       to: present
     info:
       - DevOps - Kubernetes cluster management (Github actions, K3S and Terraform)
-      - Fulltack - React, Next.js, Typescript, Elastic Search, MongoDB
+      - Full stack - React, Next.js, Typescript, Elasticsearch, MongoDB
     tags:
       - react
       - next.js
       - typescript
       - mongodb
-      - elastic search
+      - elasticsearch
   - role: DevOps Engineer
     organization: Brazilian Superior Court of Labour
     period:
@@ -46,7 +46,7 @@ work_history:
       from: fev 2014
       to: apr 2021
     achievments:
-      - Led the adoption of Git withing the institution.
+      - Led the adoption of Git within the institution.
       - Created script to automatically configure Linux machine for developers. Leading to a considerable reduction in setup time for new environments.
       - Led a more active Open Source culture within the institution through presentations. Leading to the eSocial-JT project (https://github.com/tst-labs/esocial), used by other government agencies and companies.
       - Developed CI/CD helper scripts leading to a considerable reduction in setup time for new Java or JavaScript projects.
@@ -126,7 +126,7 @@ work_history:
       from: 2005
       to: 2012
     info:
-      - "More than 7 years programming in multiple languages and frameworks such as: PHP, Java, Oracle Forms e Reports, Adobe Flash, C/C++, QT and Linux system administration."
+      - "More than 7 years programming in multiple languages and frameworks such as: PHP, Java, Oracle Forms e Reports, Adobe Flash, Python, Django, C/C++, QT and Linux system administration."
     tags:
       - php
       - laravel

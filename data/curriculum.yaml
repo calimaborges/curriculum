@@ -7,6 +7,59 @@ summary:
   - Additionally, due to Linux administration background, recently accepted the challenge to lead a DevOps team, adopting infrastructure as code using Terraform, Ansible, and Kubernetes.
   # - Enjoys solving any technology problems in a simple yet scalable manner.
 work_history:
+  -  P21
+    - Mantained and evolved PHP application used by multiple brazilian institutes
+
+      # P21's team was struggling to find a solution to sign and verify signatures using e-CPF (brazilian digital certificate).
+      # When I joined, I developed a Java Applet for the client (frontend) and used OpenSSL to verify the signature (backend). 
+      # The solution remained in use for years until Java Applet was discontinued.
+
+      # After that, the manager always looked after me to solve the most challenging problems. The next challenge was to migrate
+      # the application from a on-premise infrastrucutre to a brazilian virtual server provider. I was responsible for configuring 
+      # all the MySQL databases and Linux servers. Back then I recommended a backup policy for the database and configured it.
+
+      # My relation with the company remained for years after I left. I would eventually work as a freelancer. After a couple of years the manager contacted me 
+      # and told that a developer had mistakenly dropped a database. I used the backup policy that I elaborated back then to restore the database to the exact state
+      # right before the drop.
+
+      As part of P21's team, I developed and maintained a PHP application used by multiple Brazilian institutes. The team was struggling to find a solution for signing and verifying signatures using e-CPF (Brazilian digital certificates), and I was able to develop a Java Applet for the client (frontend) and use OpenSSL for verification on the backend. This solution was in use for several years until Java Applet was discontinued.
+      As the manager continued to rely on me to solve complex problems, the next challenge was to migrate the application from on-premises infrastructure to a Brazilian virtual server provider. I was responsible for configuring all the MySQL databases and Linux servers, and I also recommended and implemented a backup policy for the database.
+      After I left the company, my relationship with them remained strong, and I occasionally worked as a freelancer. A couple of years later, the manager contacted me to inform that a developer had accidentally dropped a database. I was able to restore it to the exact state right before the drop using the backup policy that I had implemented.
+
+    # - CRA21 PHP CRUDs (home made framework)
+    # - Linux servers (provision production servers -- Locaweb)
+    # - Backup (database backup -- had to be used -- dropbox and binlogs MySQL)
+  - Suricatus
+    - Java Web CRUDs
+    - Jasper Reports - Dynamic BI report -- learned that due to daylight saving time Java CronJob won't run 00:00 because the time does not exist. Jumps from 23:59 to 1:00
+  - Capes
+    - PHP (home made framework)
+    - Multiple CRUDs
+    - SQL module to improve native query speeds and considerably
+  - TST
+    - Precatorios
+    - Git server
+    - TST Saúde
+    - Playbook scripts // Bootstrap scripts
+    - RAP
+    - Software Architect
+    - Jenkins CI/CD pipeline improvement
+    - Docker base images
+    ---
+    - Head of DevOps Engineering
+    - Linux Administration
+    - Kubernetes and Openshift cluster management
+    - Ansible
+    - Terraform
+    - AWS
+
+    
+
+
+
+
+
+
   - role: Co-founder (Full stack and DevOps Engineer)
     organization: Dominia (https://dominia.app)
     period:

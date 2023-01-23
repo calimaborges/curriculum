@@ -12,6 +12,7 @@ import CurriculumType from "../libs/types/curriculum-type";
 import { baseFont, boldFont } from "../libs/font-names";
 import WorkHistoryItem from "./work-history-item";
 import EducationItem from "./education-item";
+import ProjectView from "./project-view";
 
 type Props = {
   data: CurriculumType;
@@ -41,12 +42,18 @@ export default function Curriculum({ data }: Props) {
             <Text style={styles.summaryItem}>{s}</Text>
           ))}
         </View>
-        {/* <View style={styles.section}>
+        <View style={styles.section}>
           <Text style={styles.sectionTitle}>Work History</Text>
           {data.work_history.map((item, i) => (
             <WorkHistoryItem key={i} item={item} />
           ))}
-        </View> */}
+        </View>
+        <View style={styles.section}>
+          <Text style={styles.sectionTitle}>Side projects and freelancers</Text>
+          {data.side_projects.map((item, i) => (
+            <ProjectView key={i} project={item} />
+          ))}
+        </View>
         <View style={styles.section}>
           <Text style={styles.sectionTitle}>Education</Text>
           {data.education.map((item, i) => (
@@ -77,6 +84,7 @@ const styles = StyleSheet.create({
     flexDirection: "column",
     padding: "40 50",
     fontFamily: baseFont,
+    lineHeight: 1.2,
   },
   location: {
     paddingTop: 3,
@@ -111,7 +119,7 @@ const styles = StyleSheet.create({
   sectionTitle: {
     fontFamily: boldFont,
     paddingVertical: 5,
-    fontSize: 14,
+    fontSize: 16,
   },
   section: {
     paddingVertical: 6,

@@ -1,6 +1,7 @@
 import { StyleSheet, Text, View } from "@react-pdf/renderer";
 import { boldFont, obliqueFont } from "../libs/font-names";
 import WorkHistoryItemType from "../libs/types/work-history-item-type";
+import ProjectView from "./project-view";
 
 type Props = {
   item: WorkHistoryItemType;
@@ -8,44 +9,28 @@ type Props = {
 
 export default function WorkHistoryItem({ item }: Props) {
   return (
-    <View style={styles.container} wrap={false}>
+    <View style={styles.container}>
       <View style={styles.header}>
         <View style={styles.jobInfo}>
-          <Text style={styles.role}>{item.role}</Text>
-          {item.organization && (
-            <Text style={styles.organization}>at {item.organization}</Text>
-          )}{" "}
+          <Text style={styles.title}>{item.position}</Text>
+          <Text style={styles.organization}>at {item.company}</Text>
         </View>
-        {item.period && (
-          <Text>
-            {item.period.from} - {item.period.to}
-          </Text>
-        )}
+        <Text>
+          {item.starting_date} - {item.ending_date}
+        </Text>
       </View>
-      {item.info && (
-        <View style={styles.info}>
-          {item.info.map((i) => (
-            <Text>- {i}</Text>
-          ))}
+      <View style={styles.body}>
+        {item.achievements && (
+          <View style={styles.subcontainer}>
+            <Text style={styles.subtitle}>Achievments</Text>
+            <Text>{item.achievements}</Text>
+          </View>
+        )}
+        <View style={styles.subcontainer}>
+          <Text style={styles.subtitle}>Projects</Text>
+          {item.projects.map(project => <ProjectView project={project} />)}
         </View>
-      )}
-      {item.achievments && (
-        <View style={styles.achievments}>
-          <Text style={styles.achievmentsTitle}>Achievments</Text>
-          {item.achievments.map((i) => (
-            <Text>- {i}</Text>
-          ))}
-        </View>
-      )}
-      {item.tags && (
-        <View style={styles.tagsContainer}>
-          {item.tags.map((tag) => (
-            <Text key={tag} style={styles.tag}>
-              {tag}
-            </Text>
-          ))}
-        </View>
-      )}
+      </View>
     </View>
   );
 }
@@ -53,14 +38,19 @@ export default function WorkHistoryItem({ item }: Props) {
 const styles = StyleSheet.create({
   container: {
     paddingVertical: 3,
-    // borderBottom: "0.5 solid #aaa",
+    paddingBottom: 5,
+    borderBottom: "0.5 solid #aaa",
     fontSize: 10,
   },
-  achievments: {
+  body: {
+    paddingLeft: 4,
+  },
+  subcontainer: {
     paddingVertical: 2,
   },
-  achievmentsTitle: {
+  subtitle: {
     fontFamily: boldFont,
+    fontSize: 12,
   },
   jobInfo: {
     flexDirection: "column",
@@ -70,23 +60,12 @@ const styles = StyleSheet.create({
     justifyContent: "space-between",
     paddingVertical: 2,
   },
-  role: {
+  title: {
     fontFamily: boldFont,
-    fontSize: 12,
+    fontSize: 14,
   },
   organization: {
     fontFamily: obliqueFont,
   },
   info: {},
-  tagsContainer: {
-    paddingVertical: 2,
-    flexDirection: "row",
-  },
-  tag: {
-    backgroundColor: "#ccc",
-    margin: 4,
-    paddingHorizontal: 6,
-    paddingVertical: 3,
-    borderRadius: 5,
-  },
 });

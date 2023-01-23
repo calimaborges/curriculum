@@ -2,7 +2,7 @@ personal:
   title: Carlos Augusto Borges
   subtitle: Full Stack Developer
   location: Brasilia, Federal District, Brazil
-  
+
 summary:
   - Full stack developer, specialized in Node.js, React and Typescript web applications. Working in the technology industry since 2009, mainly with PHP, Java and JavaScript using multiple frameworks and libraries.
   - Additionally, due to Linux administration background, recently accepted the challenge to lead a DevOps team, adopting infrastructure as code using Terraform, Ansible, and Kubernetes.
@@ -13,7 +13,7 @@ work_history:
     starting_date: 04/2021
     ending_date: present
     type: full time
-    achivements: As a supervisor, I implemented infrastructure as code practices throughout the team. Previously, this approach had not been widely adopted in the section. To address this, I utilized Ansible to effectively address the demands of the section.
+    achievements: As a supervisor, I implemented infrastructure as code practices throughout the team.
     projects:
       - name: Deployment of SEI (Brazilian Electronic Information System)
         url: https://sei.tst.jus.br/
@@ -42,13 +42,25 @@ work_history:
           - elasticsearch
           - kibana
           - fluentd
-      - name: Migration of DEJT from onpremise to AWS
+      - name: Migration of DEJT from on premise to AWS
+        url: https://dejt.tst.jus.br/
+        starting_date: 10/2022
+        ending_date: present
+        description: Migrate Java application from on-premises infrastructure to Amazon Web Services (AWS)
+        outcome:
+          - Used Terraform and GitLab CI pipeline to provision AWS resources
+          - Used Packer and Ansible files to generate application EC2 AMI
+        tags:
+          - aws
+          - terraform
+          - packer
+          - ansible
   - position: Full-Stack Developer
     company: Brazilian Superior Court of Labour
     starting_date: 01/2014
     ending_date: 04/2021
     type: full time
-    achivements: In addition to my responsibilities, I implemented the use of Git within our projects and installed the organization's first GitLab server, resulting in a significant increase in adoption of the tool across the organization. Additionally, I created several bash scripts to streamline the initial setup process for developers' machines.
+    achievements: In addition to my responsibilities, I implemented the use of Git within our projects and installed the organization's first GitLab server, resulting in a significant increase in adoption of the tool across the organization. Additionally, I created several bash scripts to streamline the initial setup process for developers' machines.
     projects:
       - name: Precatory payment and management system
         url: https://precatoriosweb.jt.jus.br/
@@ -100,7 +112,7 @@ work_history:
         description: Project to send data to fulfill the needs of the Brazilian Federal Government's eSocial system
         outcome:
           - The solution was developed in self-contained and independent modules
-          - It can be adapted and used in environments of any Brazilian organization, both public and private
+          - It can be used by any Brazilian organization, both public and private
           - The backend was developed using Spring Boot and distributed via Docker
           - A simple JavaScript, React frontend, was developed to help monitor the data sent by the project
           - The project was released as Open source in GitHub
@@ -144,25 +156,13 @@ work_history:
           - kubernetes
           - nodejs
           - express
-
-        url: https://dejt.tst.jus.br/
-        starting_date: 10/2022
-        ending_date: present
-        description: Migrate Java application from onpremise infrastructure to AWS
-        outcome:
-          - Used Terraform and GitLab CI pipeline to provision AWS resources
-          - Used Packer and Ansible files to generate application EC2 AMI
-        tags:
-          - aws
-          - terraform
-          - packer
-          - ansible
+          - tailwind
   - position: PHP Web Developer
     company: Capes
     starting_date: 04/2012
     ending_date: 01/2014
     type: full time
-    achivements: During a high usage period, we used XHProf to identify performance issues in the application and optimized database queries by implementing native queries and caching with memcached. To make the process more efficient, I developed a library for building native queries in PHP.
+    achievements: During a high usage period, we used XHProf to identify performance issues in the application and optimized database queries by implementing native queries and caching with memcached. To make the process more efficient, I developed a library for building native queries in PHP.
     projects:
       - name: Web application to register candidates for multiple scholarship programs
         url: https://inscricao.capes.gov.br
@@ -201,7 +201,7 @@ work_history:
     starting_date: 06/2011
     ending_date: 04/2012
     type: full time
-    achivements: Using Jasper Reports, created a very dynamic and programmatically customizable report.
+    achievements: Using Jasper Reports, created a very dynamic and programmatically customizable report.
     projects:
       - name: Sales tracking system
         starting_date: 06/2011
@@ -220,7 +220,7 @@ work_history:
     starting_date: 10/2009
     ending_date: 06/2011
     type: full time
-    achivements: I made significant contributions to the team's success by developing an efficient applet for customers to digitally sign documents, as well as implementing validation logic using PHP. Additionally, I took on additional responsibilities, such as maintaining the servers and databases for the system, and creating a backup policy to ensure future data preservation.
+    achievements: I made significant contributions to the team's success by developing an efficient applet for customers to digitally sign documents, as well as implementing validation logic using PHP. Additionally, I took on additional responsibilities, such as maintaining the servers and databases for the system, and creating a backup policy to ensure future data preservation.
     projects:
       - name: Inter bank and registry communication system
         starting_date: 10/2009
@@ -229,23 +229,33 @@ work_history:
         outcome:
           - Developed a digital document signer and verification system (using Brazilian e-CPF and e-CNPJ)
           - Managed the entire application infrastrucure (Apache, PHP and MySQL) using virtual machines and Linux
-          - Contributed in multiple system screens
+        tags:
+          - php
+          - linux
 
 side_projects:
-  - project: Dominia
+  - name: Dominia
     url: https://sistema.dominia.app/
     role: Co-founder DevOps and Full-stack engineer
     starting_date: 01/2021
     ending_date: present
     description: System for searching and analyzing legal decisions of the Brazilian judicial system.
-    achievments:
+    achievements:
       - Built the entire infrastructure, assisted in deploying R containers to Kubernetes, developed and deployed both the backend and frontend of the application.
-    outcomes:
+    outcome:
       - K3S Kubernetes infrastructure deployed to Digital Ocean virtual machines using GitHub Actions and Terraform
       - Deployed a full text search application using Elasticsearch
       - Reporting system to display the likelihood of a topic being granted or rejected
       - Application built using Next.js (React and Typescript)
-  - project: Aprovometro
+    tags:
+      - typescript
+      - react
+      - next.js
+      - elasticsearch
+      - monogodb
+      - terraform
+      - kubernetes
+  - name: Aprovometro
     url: https://sistema.dominia.app/
     role: Mobile Developer
     starting_date: 06/2017
@@ -253,9 +263,13 @@ side_projects:
     description: The project aims to use AI to predict the likelihood of a proposed law's approval in the Brazilian congress before it goes to a vote. This will provide valuable insights into the chances of the legislation being passed.
     achievements:
       - Second place on Legislative Challenge (http://desafio.leg.br/) with project Aprovometro
-    outcomes:
+    outcome:
       - Mobile application using Ionic framework (Angular, TypeScript)
-  - project: CRA 21 Mobile
+    tags:
+      - angular
+      - ionic
+      - typescript
+  - name: CRA 21 Mobile
     role: Mobile developer
     starting_date: 01/2016
     ending_date: 01/2017
@@ -266,7 +280,10 @@ side_projects:
         - https://play.google.com/store/apps/details?id=br.com.p21sistemas.cra21
         - https://apps.apple.com/us/app/cra21/id1124222237
       - Applications communicated with PHP backend
-  - project: Vitalab
+    tags:
+      - android
+      - ios
+  - name: Vitalab
     role: Web developer, mobile developer and linux system administrator
     starting_date: 11/2014
     ending_date: 01/2016
@@ -276,16 +293,22 @@ side_projects:
     outcome:
       - Laravel PHP web application to manage the techcnical visits
       - Android application used by technicians to receive service information and collect customer signatures
-  - project: Garra
+    tags:
+      - android
+      - php
+  - name: Garra
     role: Android mobile developer
     starting_date: 12/2013
     ending_date: 11/2014
     description: Mobile application integrated with fleet management system
     outcome:
       - A webview Android application where clients could login, monitor and secure their cars 
-  - project: React notification library contribution
+    tags:
+      - android
+  - name: React notification library contribution
     role: Frontend developer
-    description: Bug fix for React notification library (https://github.com/chadly/react-bs-notifier)
+    outcome: 
+      - Bug fix for React notification library (https://github.com/chadly/react-bs-notifier)
     tags:
       - react
   

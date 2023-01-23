@@ -41,12 +41,12 @@ export default function Curriculum({ data }: Props) {
             <Text style={styles.summaryItem}>{s}</Text>
           ))}
         </View>
-        <View style={styles.section}>
+        {/* <View style={styles.section}>
           <Text style={styles.sectionTitle}>Work History</Text>
           {data.work_history.map((item, i) => (
             <WorkHistoryItem key={i} item={item} />
           ))}
-        </View>
+        </View> */}
         <View style={styles.section}>
           <Text style={styles.sectionTitle}>Education</Text>
           {data.education.map((item, i) => (

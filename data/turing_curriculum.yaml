@@ -1,12 +1,5 @@
-personal:
-  title: Carlos Augusto Borges
-  subtitle: Full Stack Developer
-  location: Brasilia, Federal District, Brazil
-  
-summary:
-  - Full stack developer, specialized in Node.js, React and Typescript web applications. Working in the technology industry since 2009, mainly with PHP, Java and JavaScript using multiple frameworks and libraries.
-  - Additionally, due to Linux administration background, recently accepted the challenge to lead a DevOps team, adopting infrastructure as code using Terraform, Ansible, and Kubernetes.
-
+personal_information:
+summary: Full-Stack Developer specialized in Node.js, React, and Typescript with over 20 years of experience working in the technology industry. Mainly working with PHP, Java, and JavaScript using multiple frameworks and libraries. Recently accepted the challenge to lead a DevOps team, adopting infrastructure as code using Terraform, Ansible, and Kubernetes.
 work_history:
   - position: Head of DevOps Engineering
     company: Brazilian Superior Court of Labour
@@ -232,6 +225,16 @@ work_history:
           - Contributed in multiple system screens
 
 side_projects:
+  - project: Aprovometro
+    url: https://sistema.dominia.app/
+    role: Mobile Developer
+    starting_date: 06/2017
+    ending_date: 12/2017
+    description: The project aims to use AI to predict the likelihood of a proposed law's approval in the Brazilian congress before it goes to a vote. This will provide valuable insights into the chances of the legislation being passed.
+    achievements:
+      - Second place on Legislative Challenge (http://desafio.leg.br/) with project Aprovometro
+    outcomes:
+      - Mobile application using Ionic framework (Angular, TypeScript)
   - project: Dominia
     url: https://sistema.dominia.app/
     role: Co-founder DevOps and Full-stack engineer
@@ -245,27 +248,6 @@ side_projects:
       - Deployed a full text search application using Elasticsearch
       - Reporting system to display the likelihood of a topic being granted or rejected
       - Application built using Next.js (React and Typescript)
-  - project: Aprovometro
-    url: https://sistema.dominia.app/
-    role: Mobile Developer
-    starting_date: 06/2017
-    ending_date: 12/2017
-    description: The project aims to use AI to predict the likelihood of a proposed law's approval in the Brazilian congress before it goes to a vote. This will provide valuable insights into the chances of the legislation being passed.
-    achievements:
-      - Second place on Legislative Challenge (http://desafio.leg.br/) with project Aprovometro
-    outcomes:
-      - Mobile application using Ionic framework (Angular, TypeScript)
-  - project: CRA 21 Mobile
-    role: Mobile developer
-    starting_date: 01/2016
-    ending_date: 01/2017
-    achievements:
-      - Acquired the necessary skills to program native Swift iOS applications and successfully delivered it on schedule, resulting in complete customer satisfaction
-    outcome:
-      - Native Android and iOS mobile application to visualize registry reports
-        - https://play.google.com/store/apps/details?id=br.com.p21sistemas.cra21
-        - https://apps.apple.com/us/app/cra21/id1124222237
-      - Applications communicated with PHP backend
   - project: Vitalab
     role: Web developer, mobile developer and linux system administrator
     starting_date: 11/2014
@@ -282,21 +264,15 @@ side_projects:
     ending_date: 11/2014
     description: Mobile application integrated with fleet management system
     outcome:
-      - A webview Android application where clients could login, monitor and secure their cars 
-  - project: React notification library contribution
-    role: Frontend developer
-    description: Bug fix for React notification library (https://github.com/chadly/react-bs-notifier)
-    tags:
-      - react
-  
-education:
-  - institute: Universidade de Brasília
-    info: Computation 2011
-  - institute: Casa Thomas Jefferson
-    info: Advanced English
-
-technologies:
-  - JavaScript/ES6, TypeScript, Node.js, Java, PHP, Python
-  - React, React Router, Next.js, Redux, Webpack, Jest
-  - Android, iOS, React Native
-  - Linux, Heroku, AWS, Digital Ocean, Cloudflare, Docker, Kubernetes, Ansible, Terraform
+      - A webview Android application where clients could login, monitor and secure their cars
+  - project: CRA 21 Mobile
+    role: Mobile developer
+    starting_date: 01/2016
+    ending_date: 01/2017
+    achievements:
+      - Acquired the necessary skills to program native Swift iOS applications and successfully delivered it on schedule, resulting in complete customer satisfaction
+    outcome:
+      - Native Android and iOS mobile application to visualize registry reports
+        - https://play.google.com/store/apps/details?id=br.com.p21sistemas.cra21
+        - https://apps.apple.com/us/app/cra21/id1124222237
+      - Applications communicated with PHP backend

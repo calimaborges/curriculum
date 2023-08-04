@@ -8,10 +8,70 @@ summary:
   - Additionally, due to Linux administration background, recently accepted the challenge to lead a DevOps team, adopting infrastructure as code using Terraform, Ansible, and Kubernetes.
 
 work_history:
+  - position: Software Engineer
+    company: BairesDev / SunRun
+    starting_date: 02/2023
+    ending_date: present
+    type: full time
+    achievements: Quick adaptation in a complex environment with multiple technologies (Google Cloud Platform, AWS, Apache Airflow, Node.js, Python, Kotlin, Terraform)
+    projects:
+      - name: Data Ingestion for the Data integration team
+        starting_date: 02/2023
+        ending_date: present
+        description: Maintenance of the solar panel data ingestion backend softwares
+        outcome:
+          - Maintained, deployed and reviewed multiple Node.js projects
+          - Researched ways to improve query response times on Google Cloud Platform
+          - Adapted Terraform scripts
+          - Migrated ingestion pipeline from GCP to AWS
+        tags:
+          - nodejs
+          - terrraform
+          - python
+          - kotlin
+  - position: Full-Stack Developer
+    company: Brazilian Superior Court of Labour
+    starting_date: 01/2014
+    ending_date: 04/2021
+    type: full time
+    achievements: In addition to my responsibilities, I implemented the use of Git within our projects and installed the organization's first GitLab server, resulting in a significant increase in adoption of the tool across the organization. Additionally, I created several bash scripts to streamline the initial setup process for developers' machines.
+    projects:
+      - name: Precatory payment and management system
+        url: https://precatoriosweb.jt.jus.br/
+        starting_date: 01/2014
+        ending_date: 05/2016
+        description: Judicial debt registry system for the Brazilian Labor Court
+        outcome:
+          - The project had already started when I joined.
+          - Used Java, VRaptor, JavaScript, jQuery, Bootstrap and AngularJS for the development of this project.
+          - First project to use AngularJS in the organization
+        tags:
+          - java
+          - javascript
+          - jquery
+          - bootstrap
+          - vraptor
+          - angularjs
+      - name: Retired and pensioner management system
+        url: https://aplicacao7.tst.jus.br/rap/
+        starting_date: 06/2016
+        ending_date: 04/2017
+        description: System to update records of retirees and pensioners of the Brazilian Superior Labor Court
+        outcome:
+          - Developed the backend using Java EE
+          - Frontend used JavaScript, React, Redux, Webpack and Bootstrap
+          - First project to adopt React in the organization
+        tags:
+          - java
+          - javascript
+          - react
+          - redux
+          - webpack
+          - bootstrap
   - position: Head of DevOps Engineering
     company: Brazilian Superior Court of Labour
     starting_date: 04/2021
-    ending_date: present
+    ending_date: 02/2023
     type: full time
     achievements: As a supervisor, I implemented infrastructure as code practices throughout the team.
     projects:
@@ -29,7 +89,7 @@ work_history:
       - name: Deployment and maintenance of PJe (Brazilian Electronic Judicial Process)
         url: https://pje.tst.jus.br/
         starting_date: 07/2021
-        ending_date: present
+        ending_date: 02/2023
         description: Deploy and maintain PJe using a Kubernetes Cluster
         outcome:
           - Deployed a Kubernetes cluster using Kubespray
@@ -45,7 +105,7 @@ work_history:
       - name: Migration of DEJT from on premise to AWS
         url: https://dejt.tst.jus.br/
         starting_date: 10/2022
-        ending_date: present
+        ending_date: 02/2023
         description: Migrate Java application from on-premises infrastructure to Amazon Web Services (AWS)
         outcome:
           - Used Terraform and GitLab CI pipeline to provision AWS resources
@@ -238,7 +298,7 @@ side_projects:
     url: https://sistema.dominia.app/
     role: Co-founder DevOps and Full-stack engineer
     starting_date: 01/2021
-    ending_date: present
+    ending_date: 02/2023
     description: System for searching and analyzing legal decisions of the Brazilian judicial system.
     achievements:
       - Built the entire infrastructure, assisted in deploying R containers to Kubernetes, developed and deployed both the backend and frontend of the application.

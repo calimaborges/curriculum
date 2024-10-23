@@ -29,45 +29,6 @@ work_history:
           - terrraform
           - python
           - kotlin
-  - position: Full-Stack Developer
-    company: Brazilian Superior Court of Labour
-    starting_date: 01/2014
-    ending_date: 04/2021
-    type: full time
-    achievements: In addition to my responsibilities, I implemented the use of Git within our projects and installed the organization's first GitLab server, resulting in a significant increase in adoption of the tool across the organization. Additionally, I created several bash scripts to streamline the initial setup process for developers' machines.
-    projects:
-      - name: Precatory payment and management system
-        url: https://precatoriosweb.jt.jus.br/
-        starting_date: 01/2014
-        ending_date: 05/2016
-        description: Judicial debt registry system for the Brazilian Labor Court
-        outcome:
-          - The project had already started when I joined.
-          - Used Java, VRaptor, JavaScript, jQuery, Bootstrap and AngularJS for the development of this project.
-          - First project to use AngularJS in the organization
-        tags:
-          - java
-          - javascript
-          - jquery
-          - bootstrap
-          - vraptor
-          - angularjs
-      - name: Retired and pensioner management system
-        url: https://aplicacao7.tst.jus.br/rap/
-        starting_date: 06/2016
-        ending_date: 04/2017
-        description: System to update records of retirees and pensioners of the Brazilian Superior Labor Court
-        outcome:
-          - Developed the backend using Java EE
-          - Frontend used JavaScript, React, Redux, Webpack and Bootstrap
-          - First project to adopt React in the organization
-        tags:
-          - java
-          - javascript
-          - react
-          - redux
-          - webpack
-          - bootstrap
   - position: Head of DevOps Engineering
     company: Brazilian Superior Court of Labour
     starting_date: 04/2021
@@ -200,6 +161,16 @@ work_history:
           - kubernetes
           - nodejs
           - java
+      - name: Keycloak integration
+        starting_date: 11/2020
+        ending_date: 03/2021
+        description: Project to integrate Kecloak in multiple projects
+        outcome:
+          - Migrated multiple applications to OpenID Connect, replacing the in-house single sign-on solution
+          - Integrated multiple third-party applications using the OpenID Connect
+        tags:
+          - keycloak
+          - openid connect
       - name: TST API Hub
         starting_date: 11/2020
         ending_date: 03/2021

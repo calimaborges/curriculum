@@ -4,20 +4,62 @@ personal:
   location: Brasilia, Federal District, Brazil
 
 summary:
-  - Full stack developer, specialized in Node.js, React and Typescript web applications. Working in the technology industry since 2009, mainly with PHP, Java and JavaScript using multiple frameworks and libraries.
-  - In 2021, I leveraged my strong Linux administration background to take on the challenge of leading a DevOps team, where I implemented infrastructure as code using Terraform, Ansible, and Kubernetes.
+  - Full stack developer, specialized in Node.js, React and Typescript web
+    applications. Working in the technology industry since 2009, mainly with
+    PHP, Java and JavaScript using multiple frameworks and libraries.
+  - In 2021, I leveraged my strong Linux administration background to take on
+    the challenge of leading a DevOps team, where I implemented infrastructure
+    as code using Terraform, Ansible, and Kubernetes.
+  - In 2024, I took the challenge of leading Kinection.ai’s full‑stack
+    team, leading a ground‑up rebuild into a React/Typescript + Django PWA,
+    rolling out Terraform‑based AWS infrastructure with per‑PR preview
+    environments, and launching a GitHub Actions CI/CD pipeline that enables
+    multiple releases per day.
 
 work_history:
+  - position: Tech Lead
+    company: Kinection.ai
+    starting_date: 11/2024
+    ending_date: present
+    type: full time
+    achievements: 
+      - Developed and deployed a React Single Page Application backed by a
+        Python‑Django RPC API
+      - Built an end‑to‑end CI/CD pipeline with GitHub Actions and Terraform
+        that spins up **isolated preview environments per pull request** on AWS
+        (EC2, S3, CloudFront, Route 53).
+      - Partnered with Design & Product to iterate on UX.
+    projects:
+      - name: Kinection Progressive Web App
+        starting_date: 11/2024
+        ending_date: present
+        description: Fullstack Lead Developer
+        outcome:
+          - Own architecture and delivery of front‑end (React, Vite and
+            Typescript) and back‑end (Django RPC) components.
+          - Define and maintain Terraform modules for AWS infrastructure (VPC,
+            EC2/ECS, S3, RDS, CloudFront).
+          - Author GitHub Actions workflows for build, test, and blue‑green
+            deploy.
+        tags:
+          - react
+          - typescript
+          - terrraform
+          - python
+          - django
+          - github actions
+          - aws
+          - leadership
   - position: Software Engineer
     company: BairesDev / SunRun
     starting_date: 02/2023
-    ending_date: present
+    ending_date: 11/2024
     type: full time
-    achievements: Quick adaptation in a complex environment with multiple technologies (Google Cloud Platform, AWS, Apache Airflow, Node.js, Python, Kotlin, Terraform)
+    achievements: Quick adaptation in a complex environment with multiple technologies (Google Cloud Platform, AWS, Apache Airflow, Node.js, Typescript, Python, Kotlin, Terraform)
     projects:
       - name: Data Ingestion for the Data integration team
         starting_date: 02/2023
-        ending_date: present
+        ending_date: 11/2024
         description: Maintenance of the solar panel data ingestion backend softwares
         outcome:
           - Maintained, deployed and reviewed multiple Node.js projects
@@ -26,6 +68,7 @@ work_history:
           - Migrated ingestion pipeline from GCP to AWS
         tags:
           - nodejs
+          - typescript
           - terrraform
           - python
           - kotlin

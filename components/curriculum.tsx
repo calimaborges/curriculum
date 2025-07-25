@@ -16,9 +16,10 @@ import ProjectView from "./project-view";
 
 type Props = {
   data: CurriculumType;
+  language: "ptbr" | "enus";
 };
 
-export default function Curriculum({ data }: Props) {
+export default function Curriculum({ data, language }: Props) {
   return (
     <Document>
       <Page size="A4" style={styles.page}>
@@ -37,31 +38,45 @@ export default function Curriculum({ data }: Props) {
           </View>
         </View>
         <View style={styles.section}>
-          <Text style={styles.sectionTitle}>Professional Summary</Text>
+          <Text style={styles.sectionTitle}>
+            {language === "ptbr"
+              ? "Resumo profissional"
+              : "Professional Summary"}
+          </Text>
           {data.summary.map((s) => (
             <Text style={styles.summaryItem}>{s}</Text>
           ))}
         </View>
         <View style={styles.section}>
-          <Text style={styles.sectionTitle}>Work History</Text>
+          <Text style={styles.sectionTitle}>
+            {language === "ptbr" ? "Histórico de trabalho" : "Work History"}
+          </Text>
           {data.work_history.map((item, i) => (
-            <WorkHistoryItem key={i} item={item} />
+            <WorkHistoryItem key={i} item={item} language={language} />
           ))}
         </View>
         <View style={styles.section}>
-          <Text style={styles.sectionTitle}>Side projects and freelancers</Text>
+          <Text style={styles.sectionTitle}>
+            {language === "ptbr"
+              ? "Projetos pessoais e freelancers"
+              : "Side projects and freelancers"}
+          </Text>
           {data.side_projects.map((item, i) => (
             <ProjectView key={i} project={item} />
           ))}
         </View>
         <View style={styles.section}>
-          <Text style={styles.sectionTitle}>Education</Text>
+          <Text style={styles.sectionTitle}>
+            {language === "ptbr" ? "Educação" : "Education"}
+          </Text>
           {data.education.map((item, i) => (
             <EducationItem key={i} item={item} />
           ))}
         </View>
         <View style={styles.section}>
-          <Text style={styles.sectionTitle}>Technologies</Text>
+          <Text style={styles.sectionTitle}>
+            {language === "ptbr" ? "Tecnologias" : "Technologies"}
+          </Text>
           {data.technologies.map((item, i) => (
             <Text key={i} style={styles.technologieItem}>
               - {item}
@@ -69,7 +84,9 @@ export default function Curriculum({ data }: Props) {
           ))}
         </View>
         <Text style={styles.disclaimer}>
-          Curriculum source code available at{" "}
+          {language === "ptbr"
+            ? "Código fonte do currículo disponível em "
+            : "Curriculum source code available at "}
           <Link src="https://github.com/calimaborges/curriculum">
             <Text>github.com/calimaborges/curriculum</Text>
           </Link>
@@ -131,6 +148,6 @@ const styles = StyleSheet.create({
   },
   disclaimer: {
     fontSize: 10,
-    paddingVertical: 8
+    paddingVertical: 8,
   },
 });

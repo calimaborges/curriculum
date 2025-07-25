@@ -5,13 +5,18 @@ import Viewer from "../components/viewer";
 import CurriculumType from "../libs/types/curriculum-type";
 import ContactType from "../libs/types/contact-type";
 
+const language = "ptbr";
+
 async function getData() {
   const curriculumDirectory = path.join(process.cwd(), "data");
   const data = yaml.load(
-    await fs.promises.readFile(`${curriculumDirectory}/curriculum.yaml`, "utf8")
+    await fs.promises.readFile(
+      `${curriculumDirectory}/curriculum-${language}.yaml`,
+      "utf8",
+    ),
   ) as CurriculumType;
   const contacts = yaml.load(
-    await fs.promises.readFile(`${curriculumDirectory}/contacts.yaml`, "utf8")
+    await fs.promises.readFile(`${curriculumDirectory}/contacts.yaml`, "utf8"),
   ) as ContactType[];
   data.personal.contacts = contacts;
   return data as CurriculumType;
@@ -19,5 +24,5 @@ async function getData() {
 
 export default async function Page() {
   const data = await getData();
-  return <Viewer data={data} />;
+  return <Viewer data={data} language={language} />;
 }

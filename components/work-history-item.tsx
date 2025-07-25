@@ -5,15 +5,18 @@ import ProjectView from "./project-view";
 
 type Props = {
   item: WorkHistoryItemType;
+  language: "ptbr" | "enus";
 };
 
-export default function WorkHistoryItem({ item }: Props) {
+export default function WorkHistoryItem({ item, language }: Props) {
   return (
     <View style={styles.container}>
       <View style={styles.header}>
         <View style={styles.jobInfo}>
           <Text style={styles.title}>{item.position}</Text>
-          <Text style={styles.organization}>at {item.company}</Text>
+          <Text style={styles.organization}>
+            {language === "ptbr" ? "em" : "at"} {item.company}
+          </Text>
         </View>
         <Text>
           {item.starting_date} - {item.ending_date}
@@ -22,13 +25,19 @@ export default function WorkHistoryItem({ item }: Props) {
       <View style={styles.body}>
         {item.achievements && (
           <View style={styles.subcontainer}>
-            <Text style={styles.subtitle}>Achievments</Text>
+            <Text style={styles.subtitle}>
+              {language === "ptbr" ? "Conquistas" : "Achievments"}
+            </Text>
             <Text>{item.achievements}</Text>
           </View>
         )}
         <View style={styles.subcontainer}>
-          <Text style={styles.subtitle}>Projects</Text>
-          {item.projects.map(project => <ProjectView project={project} />)}
+          <Text style={styles.subtitle}>
+            {language === "ptbr" ? "Projetos" : "Projects"}
+          </Text>
+          {item.projects.map((project) => (
+            <ProjectView project={project} />
+          ))}
         </View>
       </View>
     </View>

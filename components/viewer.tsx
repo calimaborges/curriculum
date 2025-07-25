@@ -7,17 +7,18 @@ import useWindowDimensions from "../libs/use-window-dimension";
 
 type Props = {
   data: CurriculumType;
+  language: "ptbr" | "enus";
 };
 
 function hasWindow() {
   return typeof window === "object";
 }
 
-export default function Viewer({ data }: Props) {
+export default function Viewer({ data, language }: Props) {
   const { height, width } = useWindowDimensions();
   return (
     <PDFViewer width={width} height={height}>
-      <Curriculum data={data} />
+      <Curriculum data={data} language={language} />
     </PDFViewer>
   );
 }

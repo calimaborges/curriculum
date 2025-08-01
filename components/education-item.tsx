@@ -9,17 +9,16 @@ type Props = {
 export default function EducationItem({ item }: Props) {
   return (
     <View style={styles.container} wrap={false}>
-      <Text style={styles.institution}>{item.institute}</Text>
-      <Text style={styles.info}>{item.info}</Text>
+      <Text>• {item.info}, {item.institute}</Text>
     </View>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
-    paddingVertical: 6,
-    // borderBottom: "0.5 solid #aaa",
     fontSize: 10,
+    paddingHorizontal: 4,
+    lineHeight: 1.5,
   },
   header: {
     flexDirection: "row",

@@ -1,395 +1,58 @@
 personal:
   title: Carlos Augusto Borges
-  subtitle: Full Stack Developer
+  subtitle: Arquiteto Full Stack
   location: Brasilia, Distrito Federal, Brasil
 
 summary:
-  - Desenvolvedor full stack, especializado em aplicações web Node.js, React e Typescript.
-    Trabalhando na indústria de tecnologia desde 2009, principalmente com
-    PHP, Java e JavaScript, utilizando múltiplos frameworks e bibliotecas.
-  - Em 2021, utilizei minha experiência em administração Linux para assumir
-    o desafio de liderar uma equipe de DevOps, onde implementei infraestrutura
-    como código usando Terraform, Ansible e Kubernetes.
-  - Em 2024, aceitei o desafio de liderar a equipe full-stack da Kinection.ai,
-    conduzindo uma reconstrução completa de um PWA React/Typescript + Django,
-    implementando infraestrutura AWS baseada em Terraform com ambientes de distintos por PR
-    e lançando um pipeline de CI/CD com GitHub Actions que permite múltiplos deploys por dia.
+  - Arquiteto Full Stack com 16 anos de experiência em desenvolvimento de aplicações web escaláveis e arquitetura de infraestrutura em nuvem. Especialista em React/TypeScript + Python/Django, com workflows avançados de desenvolvimento usando IA (Cursor, servidores MCP e sistemas multiagentes). Histórico comprovado em liderança técnica e implantação de práticas DevOps com Terraform, Kubernetes e AWS.
+
 work_history:
-  - position: Tech Lead
+  - position: Arquiteto Full Stack
     company: Kinection.ai
-    starting_date: 11/2024
-    ending_date: atual
-    type: tempo integral
+    starting_date: Nov 2024
+    ending_date: Present
     achievements: 
-      - Desenvolvi e implementei um Single Page Application em React com suporte de uma
-        API RPC Python-Django.
-      - Construí um pipeline de CI/CD de ponta a ponta com GitHub Actions e Terraform
-        que cria **ambientes de pré-visualização isolados por pull request** na AWS
-        (EC2, S3, CloudFront, Route 53).
-      - Colaborei com as equipes de Design e Produto para iterar no desenvolvimento de uma melhor experiência do usuário (UX).
-    projects:
-      - name: Kinection Progressive Web App
-        starting_date: 11/2024
-        ending_date: atual
-        description: Desenvolvedor Líder Fullstack
-        outcome:
-          - Responsável pela arquitetura e CI/CD dos componentes de front-end (React, Vite e
-            Typescript) e back-end (Django RPC).
-          - Defini e mantive módulos Terraform para a infraestrutura AWS (VPC,
-            EC2/ECS, S3, RDS, CloudFront).
-          - Criei fluxos de trabalho do GitHub Actions para build, teste e deploy blue-green.
-        tags:
-          - react
-          - typescript
-          - terrraform
-          - python
-          - django
-          - github actions
-          - aws
-          - liderança
+      - Rebuild do PWA (React/TypeScript + Django) com workflows de desenvolvimento aprimorados por IA
+      - Desenvolvimento de servidor MCP e implementação de pipeline multiagente para automação de processos
+      - Construção de workflow para deploy blue/green com GitHub Actions
   - position: Engenheiro de Software
     company: BairesDev / SunRun
-    starting_date: 02/2023
-    ending_date: 11/2024
-    type: tempo integral
-    achievements: Rápida adaptação em um ambiente complexo com múltiplas tecnologias (Google Cloud Platform, AWS, Apache Airflow, Node.js, Typescript, Python, Kotlin, Terraform)
-    projects:
-      - name: Ingestão de Dados para a equipe de integração de dados
-        starting_date: 02/2023
-        ending_date: 11/2024
-        description: Manutenção dos softwares de backend de ingestão de dados de painéis solares
-        outcome:
-          - Mantive, implementei e revisei múltiplos projetos Node.js
-          - Pesquisei maneiras de melhorar os tempos de resposta de consultas na Google Cloud Platform
-          - Adaptei scripts Terraform
-          - Migrei o pipeline de ingestão do GCP para a AWS
-        tags:
-          - nodejs
-          - typescript
-          - terrraform
-          - python
-          - kotlin
-  - position: Suppervisor da Seção de DevOps
+    starting_date: Fev 2023
+    ending_date: Nov 2024
+    achievements: 
+      - Manutenção e otimização de sistemas de ingestão de dados solares em ambientes multicloud (GCP, AWS)
+      - Migração de pipelines críticos de GCP para AWS sem downtime
+      - Desenvolvimento com múltiplas stacks (Node.js, Python, Kotlin, Apache Airflow)
+  - position: Supervisor da equipe de DevOps
     company: Tribunal Superior do Trabalho
-    starting_date: 04/2021
-    ending_date: 02/2023
-    type: tempo integral
-    achievements: Como supervisor, implementei práticas de infraestrutura como código em toda a equipe.
-    projects:
-      - name: Implantação do SEI (Sistema Eletrônico de Informações)
-        url: https://sei.tst.jus.br/
-        starting_date: 04/2021
-        ending_date: 06/2021
-        description: Implantar o Sistema Eletrônico de Informações
-        outcome:
-          - Criei scripts Ansible para automatizar a implantação
-          - Implantei múltiplos ambientes (desenvolvimento, treinamento, homologação, produção)
-          - A aplicação usa PHP, Apache Solr, memcached e banco de dados Oracle
-        tags:
-          - ansible
-      - name: Implantação e manutenção do PJe (Processo Judicial Eletrônico)
-        url: https://pje.tst.jus.br/
-        starting_date: 07/2021
-        ending_date: 02/2023
-        description: Implantar e manter o PJe usando um Cluster Kubernetes
-        outcome:
-          - Implantei um cluster Kubernetes usando Kubespray
-          - Implantei um sistema de monitoramento usando o stack Elastic (Kibana, Fluentd e Elasticsearch)
-          - Cluster de produção e cluster de Homologação
-          - A aplicação é atualizada várias vezes desde o lançamento e somos responsáveis por implantar as atualizações
-        tags:
-          - kubernetes
-          - docker
-          - elasticsearch
-          - kibana
-          - fluentd
-      - name: Migração do DEJT do ambiente local para a AWS
-        url: https://dejt.tst.jus.br/
-        starting_date: 10/2022
-        ending_date: 02/2023
-        description: Migrar aplicação Java da infraestrutura local (on-premises) para a Amazon Web Services (AWS)
-        outcome:
-          - Usamos Terraform e pipeline de CI do GitLab para provisionar recursos da AWS
-          - Usamos Packer e Ansible para gerar a AMI EC2 da aplicação
-        tags:
-          - aws
-          - terraform
-          - packer
-          - ansible
-  - position: Desenvolvedor Full-Stack
+    starting_date: Abr 2021
+    ending_date: Fev 2023
+    achievements:
+      - Liderança da equipe DevOps implantando Infrastructure as Code em sistemas governamentais
+      - Implantação e manutenção de clusters Kubernetes atendendo milhões de processos judiciais
+      - Automação de deploys críticos com Ansible e Terraform
+      - Migração de sistemas legados para AWS, com monitoramento completo
+  - position: Full Stack Sênior & Arquiteto de Software
     company: Tribunal Superior do Trabalho
-    starting_date: 01/2014
-    ending_date: 04/2021
-    type: tempo integral
-    achievements: Além das minhas responsabilidades, implementei o uso do Git em nossos projetos e instalei o primeiro servidor GitLab da organização, resultando na adoção da ferramenta em toda a organização. Adicionalmente, criei vários scripts bash para otimizar o processo de configuração inicial das máquinas dos desenvolvedores.
-    projects:
-      - name: Sistema de pagamento e gestão de precatórios
-        url: https://precatoriosweb.jt.jus.br/
-        starting_date: 01/2014
-        ending_date: 05/2016
-        description: Sistema de registro de dívidas judiciais para a Justiça do Trabalho
-        outcome:
-          - O projeto já havia começado quando eu entrei.
-          - Usamos Java, VRaptor, JavaScript, jQuery, Bootstrap e AngularJS para o desenvolvimento deste projeto.
-          - Primeiro projeto a usar AngularJS na organização
-        tags:
-          - java
-          - javascript
-          - jquery
-          - bootstrap
-          - vraptor
-          - angularjs
-      - name: Sistema de gestão de aposentados e pensionistas
-        url: https://aplicacao7.tst.jus.br/rap/
-        starting_date: 06/2016
-        ending_date: 04/2017
-        description: Sistema para atualizar cadastros de aposentados e pensionistas do Tribunal Superior do Trabalho
-        outcome:
-          - Backend em Java EE
-          - Frontend com JavaScript, React, Redux, Webpack e Bootstrap
-          - Primeiro projeto a adotar React na organização
-        tags:
-          - java
-          - javascript
-          - react
-          - redux
-          - webpack
-          - bootstrap
-      - name: TST-Saúde
-        url: https://tstsaude.tst.jus.br/
-        starting_date: 05/2017
-        ending_date: 02/2018
-        description: Sistema para gerenciar o fluxo de autorização e pagamentos do plano de saúde da instituição
-        outcome:
-          - O sistema já existia, mas não implementava o protocolo mais recente da ANS (Agência Nacional de Saúde Suplementar)
-          - Aproveitamos a oportunidade para atualizar os frameworks do sistema
-          - Migração de páginas JSF e AngularJS para React e um backend Java EE mais novo
-          - Melhorias de UX/UI
-          - Migração progressiva do framework
-      - name: eSocial-JT
-        url: https://github.com/tst-labs/esocial/
-        starting_date: 03/2018
-        ending_date: 09/2018
-        description: Projeto para enviar dados para atender às necessidades do sistema eSocial do Governo Federal
-        outcome:
-          - A solução foi desenvolvida em módulos autocontidos e independentes
-          - Pode ser usada por qualquer organização brasileira, tanto pública quanto privada
-          - O backend foi desenvolvido usando Spring Boot e distribuído via Docker
-          - Um frontend simples em JavaScript e React foi desenvolvido para ajudar a monitorar os dados enviados pelo sistema
-          - O projeto foi lançado como código aberto no GitHub (https://github.com/tst-labs/esocial)
-        tags:
-          - docker
-          - javascript
-          - open source
-          - spring boot
-          - spring
-          - react
-          - material ui
-      - name: Arquiteto de Software
-        starting_date: 10/2018
-        ending_date: 03/2021
-        description: Nesta função, colaborei com outro arquiteto para aprimorar a experiência dos desenvolvedores dentro da organização, gerenciando múltiplos projetos e abordando problemas complexos
-        outcome:
-          - Desenvolvimento de scripts de CI/CD para otimizar a configuração e implantação de projetos de desenvolvimento
-          - Criação de imagens base do Docker usadas por várias equipes de desenvolvimento
-          - Consultor para várias equipes para resolver problemas complexos em React, Javascript, Docker, Java e arquivos de implantação
-          - Criação de arquivos de implantação de referência do Kubernetes usados por outras equipes
-        tags:
-          - docker
-          - javascript
-          - react
-          - kubernetes
-          - nodejs
-          - java
-      - name: Integração com Keycloak
-        starting_date: 11/2020
-        ending_date: 03/2021
-        description: Projeto para integrar o Keycloak em múltiplos projetos
-        outcome:
-          - Migração de múltiplas aplicações para OpenID Connect, substituindo a solução de single sign-on interna
-          - Integração de múltiplas aplicações de terceiros usando o OpenID Connect
-        tags:
-          - keycloak
-          - openid connect
-      - name: Hub de APIs do TST
-        starting_date: 11/2020
-        ending_date: 03/2021
-        description: Projeto para concentrar e pesquisar as APIs Web da organização
-        outcome:
-          - Backend foi desenvolvido usando Node.js, JavaScript e Express
-          - Frontend foi desenvolvido usando JavaScript, React e Tailwind
-          - Conteinerizado e implantado no Kubernetes
-          - Desenvolvimento de scripts de CI/CD para registrar APIs
-        tags:
-          - docker
-          - javascript
-          - react
-          - kubernetes
-          - nodejs
-          - express
-          - tailwind
-  - position: Desenvolvedor Web PHP
-    company: Capes
-    starting_date: 04/2012
-    ending_date: 01/2014
-    type: tempo integral
-    achievements: Durante um período de alto uso, utilizamos o XHProf para identificar problemas de desempenho na aplicação e otimizamos as consultas ao banco de dados implementando consultas nativas e cache com memcached. Para tornar o processo mais eficiente, desenvolvi uma biblioteca para construir consultas nativas em PHP.
-    projects:
-      - name: Aplicação web para inscrição de candidatos em múltiplos programas de bolsa
-        url: https://inscricao.capes.gov.br
-        starting_date: 01/2012
-        ending_date: 06/2012
-        description: Desenvolver módulos para inscrever candidatos
-        outcome:
-          - Sistema interno desenvolvido em PHP
-          - Banco de dados Postgres
-          - Desenvolvimento do módulo de inscrição e análise de candidatos
-        tags:
-          - php
-          - html
-          - css
-          - javascript
-          - jquery
-          - postgres
-      - name: Aplicação web para gerenciar inscrições do Ciência sem Fronteiras
-        url: https://www.gov.br/cnpq/pt-br/acesso-a-informacao/acoes-e-programas/programas/ciencia-sem-fronteiras
-        starting_date: 06/2012
-        ending_date: 01/2014
-        description: Aplicação web para gerenciar inscrições do Ciência sem Fronteiras
-        outcome:
-          - Desenvolvimento do módulo para inscrição de candidatos
-          - Melhoria no desempenho e UX do módulo de análise de inscrições
-        tags:
-          - php
-          - html
-          - css
-          - javascript
-          - jquery
-          - postgres
-  - position: Desenvolvedor Web Java
-    company: Suricattus
-    starting_date: 06/2011
-    ending_date: 04/2012
-    type: tempo integral
-    achievements: Usando Jasper Reports, criei um relatório dinâmico e programaticamente personalizável.
-    projects:
-      - name: Sistema de acompanhamento de vendas
-        starting_date: 06/2011
-        ending_date: 04/2012
-        description: Desenvolver sistema de gerenciamento de vendas e relatórios
-        outcome:
-          - Sistema JSF para gerenciar dados de vendas
-          - Tarefa agendada com Jasper Reports e Quartz para enviar relatórios diários de business intelligence
-        tags:
-          - spring
-          - jsf
-          - jasper
-          - quartz
-  - position: Desenvolvedor Web PHP e Administrador de Sistemas Linux
-    company: P21
-    starting_date: 10/2009
-    ending_date: 06/2011
-    type: tempo integral
-    achievements: Fiz contribuições significativas para o sucesso da equipe ao desenvolver um applet para os clientes assinarem documentos digitalmente, desenvolvi também a lógica de validação usando PHP. Além disso, assumi responsabilidades adicionais, como a manutenção dos servidores e bancos de dados do sistema, e a criação de uma política de backup para garantir a preservação futura dos dados.
-    projects:
-      - name: Sistema de comunicação interbancária e cartorária
-        starting_date: 10/2009
-        ending_date: 06/2011
-        description: Desenvolver e implementar um robusto sistema de comunicação interbancária e cartorária para vários estados brasileiros
-        outcome:
-          - Desenvolvimento de um sistema de assinatura e verificação de documentos digitais (usando e-CPF e e-CNPJ brasileiros)
-          - Gestão de toda a infraestrutura da aplicação (Apache, PHP e MySQL) usando máquinas virtuais e Linux
-        tags:
-          - php
-          - linux
+    starting_date: Jan 2014
+    ending_date: Abr 2021
+    achievements:
+      - Arquitetura e desenvolvimento de sistemas judiciais de grande porte
+      - Introdução do React e modernização de aplicações legadas AngularJS
+      - Implantação do primeiro servidor GitLab e práticas CI/CD
+      - Criação de imagens Docker reutilizáveis e templates Kubernetes
 
-side_projects:
-  - name: Dominia
-    url: https://sistema.dominia.app/
-    role: Cofundador, Engenheiro DevOps e Full-stack
-    starting_date: 01/2021
-    ending_date: 02/2023
-    description: Sistema de busca e análise de decisões judiciais do sistema judiciário brasileiro.
-    achievements:
-      - Construí toda a infraestrutura, auxiliei na implantação de contêineres R no Kubernetes, desenvolvi e implantei tanto o backend quanto o frontend da aplicação.
-    outcome:
-      - Infraestrutura Kubernetes K3S implantada em máquinas virtuais da Digital Ocean usando GitHub Actions e Terraform
-      - Implantação de uma aplicação de busca textual usando Elasticsearch
-      - Sistema de relatórios para exibir a probabilidade de um tema ser concedido ou negado 
-      - Aplicação construída usando Next.js (React e Typescript)
-    tags:
-      - typescript
-      - react
-      - next.js
-      - elasticsearch
-      - monogodb
-      - terraform
-      - kubernetes
-  - name: Aprovometro
-    url: https://sistema.dominia.app/
-    role: Desenvolvedor Mobile
-    starting_date: 06/2017
-    ending_date: 12/2017
-    description: O projeto visa usar IA para prever a probabilidade de aprovação de uma lei proposta no congresso brasileiro antes de ir para votação. Isso fornecerá informações estimadas sobre as chances de a legislação ser aprovada.
-    achievements:
-      - Segundo lugar no Desafio Legislativo (http://desafio.leg.br/) com o projeto Aprovômetro
-    outcome:
-      - Aplicação móvel usando o framework Ionic (Angular, TypeScript)
-    tags:
-      - angular
-      - ionic
-      - typescript
-  - name: CRA 21 Mobile
-    role: Desenvolvedor Mobile
-    starting_date: 01/2016
-    ending_date: 01/2017
-    achievements:
-      - Adquiri as habilidades necessárias para programar aplicações nativas para iOS em Swift e as entreguei com sucesso dentro do prazo, resultando na satisfação total do cliente
-    outcome:
-      - Aplicação móvel nativa para Android e iOS para visualizar relatórios de cartório
-        - https://play.google.com/store/apps/details?id=br.com.p21sistemas.cra21
-        - https://apps.apple.com/us/app/cra21/id1124222237
-      - As aplicações se comunicavam com um backend PHP
-    tags:
-      - android
-      - ios
-  - name: Vitalab
-    role: Desenvolvedor web, desenvolvedor mobile e administrador de sistemas linux
-    starting_date: 11/2014
-    ending_date: 01/2016
-    description: Sistema para gerenciar visitas técnicas
-    achievements:
-      - Adquiri as habilidades necessárias para programar aplicações nativas para Android em Java e as entreguei com sucesso dentro do prazo, resultando na satisfação total do cliente
-    outcome:
-      - Aplicação web em Laravel PHP para gerenciar as visitas técnicas
-      - Aplicação Android usada por técnicos para receber informações de serviço e coletar assinaturas de clientes
-    tags:
-      - android
-      - php
-  - name: Garra
-    role: Desenvolvedor mobile Android
-    starting_date: 12/2013
-    ending_date: 11/2014
-    description: Aplicação móvel integrada com sistema de gerenciamento de frotas
-    outcome:
-      - Uma aplicação Android com webview onde os clientes podiam fazer login, monitorar e proteger seus carros
-    tags:
-      - android
-  - name: Contribuição para biblioteca de notificação React
-    role: Desenvolvedor Frontend
-    outcome: 
-      - Correção de bug para a biblioteca de notificação React (https://github.com/chadly/react-bs-notifier)
-    tags:
-      - react
   
 education:
-  - institute: Universidade de Brasília
-    info: Computação 2011
+  - institute: Universidade de Brasília (2011)
+    info: Computação
   - institute: Casa Thomas Jefferson
     info: Inglês Avançado
 
 technologies:
-  - JavaScript/ES6, TypeScript, Node.js, Java, PHP, Python
-  - React, React Router, Next.js, Redux, Webpack, Jest
-  - Android, iOS, React Native
-  - Linux, Heroku, AWS, Digital Ocean, Cloudflare, Docker, Kubernetes, Ansible, Terraform
+  - "Desenvolvimento com IA: Cursor, Protocolo MCP, Sistemas Multiagentes"
+  - "Frontend: React, TypeScript, Next.js, Redux, Vite"
+  - "Backend: Python/Django, Node.js, Java/Spring Boot"
+  - "Cloud & DevOps: AWS, Terraform, Kubernetes, Docker, GitHub Actions"
+  - "Dados: PostgreSQL, Elasticsearch, Apache Airflow"
+

@@ -9,7 +9,7 @@ import {
   Link,
 } from "@react-pdf/renderer";
 import CurriculumType from "../libs/types/curriculum-type";
-import { baseFont, boldFont } from "../libs/font-names";
+import { baseFont, boldFont, obliqueFont } from "../libs/font-names";
 import WorkHistoryItem from "./work-history-item";
 import EducationItem from "./education-item";
 import ProjectView from "./project-view";
@@ -57,16 +57,6 @@ export default function Curriculum({ data, language }: Props) {
         </View>
         <View style={styles.section}>
           <Text style={styles.sectionTitle}>
-            {language === "ptbr"
-              ? "Projetos pessoais e freelancers"
-              : "Side projects and freelancers"}
-          </Text>
-          {data.side_projects.map((item, i) => (
-            <ProjectView key={i} project={item} />
-          ))}
-        </View>
-        <View style={styles.section}>
-          <Text style={styles.sectionTitle}>
             {language === "ptbr" ? "Educação" : "Education"}
           </Text>
           {data.education.map((item, i) => (
@@ -75,22 +65,14 @@ export default function Curriculum({ data, language }: Props) {
         </View>
         <View style={styles.section}>
           <Text style={styles.sectionTitle}>
-            {language === "ptbr" ? "Tecnologias" : "Technologies"}
+            {language === "ptbr" ? "Tecnologias" : "Core Technologies"}
           </Text>
           {data.technologies.map((item, i) => (
             <Text key={i} style={styles.technologieItem}>
-              - {item}
+              • {item}
             </Text>
           ))}
         </View>
-        <Text style={styles.disclaimer}>
-          {language === "ptbr"
-            ? "Código fonte do currículo disponível em "
-            : "Curriculum source code available at "}
-          <Link src="https://github.com/calimaborges/curriculum">
-            <Text>github.com/calimaborges/curriculum</Text>
-          </Link>
-        </Text>
       </Page>
     </Document>
   );
@@ -118,6 +100,9 @@ const styles = StyleSheet.create({
   },
   summaryItem: {
     paddingVertical: 5,
+    paddingHorizontal: 2,
+    fontSize: 10,
+    lineHeight: 1.3,
   },
   topSection: {
     flexDirection: "row",
@@ -127,11 +112,12 @@ const styles = StyleSheet.create({
   },
   title: {
     fontFamily: boldFont,
-    fontSize: 24,
+    fontSize: 16,
+    paddingVertical: 2,
   },
   subtitle: {
-    fontFamily: baseFont,
-    fontSize: 20,
+    fontFamily: obliqueFont,
+    fontSize: 16,
   },
   sectionTitle: {
     fontFamily: boldFont,
@@ -144,7 +130,9 @@ const styles = StyleSheet.create({
   },
   technologieItem: {
     paddingVertical: 1,
+    paddingHorizontal: 4,
     fontSize: 10,
+    lineHeight: 1.3,
   },
   disclaimer: {
     fontSize: 10,

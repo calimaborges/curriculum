@@ -12,33 +12,19 @@ export default function WorkHistoryItem({ item, language }: Props) {
   return (
     <View style={styles.container}>
       <View style={styles.header}>
-        <View style={styles.jobInfo}>
-          <Text style={styles.title}>{item.position}</Text>
-          <Text style={styles.organization}>
-            {language === "ptbr" ? "em" : "at"} {item.company}
-          </Text>
-        </View>
-        <Text>
-          {item.starting_date} - {item.ending_date}
+        <Text style={styles.title}>{item.position} </Text>
+        <Text style={styles.organization}>
+          | {item.company} | {item.starting_date} - {item.ending_date}
         </Text>
       </View>
       <View style={styles.body}>
         {item.achievements && (
           <View style={styles.subcontainer}>
-            <Text style={styles.subtitle}>
-              {language === "ptbr" ? "Conquistas" : "Achievments"}
-            </Text>
-            <Text>{item.achievements}</Text>
+            {item.achievements.map((achievement) => (
+              <Text>• {achievement}</Text>
+            ))}
           </View>
         )}
-        <View style={styles.subcontainer}>
-          <Text style={styles.subtitle}>
-            {language === "ptbr" ? "Projetos" : "Projects"}
-          </Text>
-          {item.projects.map((project) => (
-            <ProjectView project={project} />
-          ))}
-        </View>
       </View>
     </View>
   );
@@ -47,15 +33,15 @@ export default function WorkHistoryItem({ item, language }: Props) {
 const styles = StyleSheet.create({
   container: {
     paddingVertical: 3,
-    paddingBottom: 5,
-    borderBottom: "0.5 solid #aaa",
+    paddingHorizontal: 2,
     fontSize: 10,
   },
   body: {
-    paddingLeft: 4,
+    paddingHorizontal: 8,
   },
   subcontainer: {
     paddingVertical: 2,
+    lineHeight: 1.5,
   },
   subtitle: {
     fontFamily: boldFont,
@@ -66,15 +52,12 @@ const styles = StyleSheet.create({
   },
   header: {
     flexDirection: "row",
-    justifyContent: "space-between",
-    paddingVertical: 2,
+    alignItems: "center",
+    lineHeight: 1.5,
   },
   title: {
     fontFamily: boldFont,
-    fontSize: 14,
   },
-  organization: {
-    fontFamily: obliqueFont,
-  },
+  organization: {},
   info: {},
 });

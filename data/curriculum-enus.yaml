@@ -1,399 +1,57 @@
 personal:
   title: Carlos Augusto Borges
-  subtitle: Full Stack Developer
+  subtitle: Full Stack Architect
   location: Brasilia, Federal District, Brazil
 
 summary:
-  - Full stack developer, specialized in Node.js, React and Typescript web
-    applications. Working in the technology industry since 2009, mainly with
-    PHP, Java and JavaScript using multiple frameworks and libraries.
-  - In 2021, I leveraged my Linux administration background to take on
-    the challenge of leading a DevOps team, where I implemented infrastructure
-    as code using Terraform, Ansible, and Kubernetes.
-  - In 2024, I took the challenge of leading Kinection.ai’s full‑stack
-    team, leading a ground‑up rebuild in React/Typescript + Django PWA,
-    rolling out Terraform‑based AWS infrastructure with per‑PR preview
-    environments, and launching a GitHub Actions CI/CD pipeline that enables
-    multiple releases per day.
+  - Full Stack Architect with 16 years of experience building scalable web applications and cloud infrastructure. Expert in React/TypeScript + Python/Django stacks with advanced AI development workflows using Cursor, MCP servers, and multi-agent systems. Proven track record leading teams and implementing DevOps practices with Terraform, Kubernetes, and AWS infrastructure.
 
 work_history:
-  - position: Tech Lead
+  - position: Full Stack Architect
     company: Kinection.ai
-    starting_date: 11/2024
-    ending_date: present
-    type: full time
+    starting_date: Nov 2024
+    ending_date: Present
     achievements: 
-      - Developed and deployed a React Single Page Application backed by a
-        Python‑Django RPC API
-      - Built an end‑to‑end CI/CD pipeline with GitHub Actions and Terraform
-        that spins up **isolated preview environments per pull request** on AWS
-        (EC2, S3, CloudFront, Route 53).
-      - Partnered with Design & Product to iterate on UX.
-    projects:
-      - name: Kinection Progressive Web App
-        starting_date: 11/2024
-        ending_date: present
-        description: Fullstack Lead Developer
-        outcome:
-          - Own architecture and delivery of front‑end (React, Vite and
-            Typescript) and back‑end (Django RPC) components.
-          - Define and maintain Terraform modules for AWS infrastructure (VPC,
-            EC2/ECS, S3, RDS, CloudFront).
-          - Author GitHub Actions workflows for build, test, and blue‑green
-            deploy.
-        tags:
-          - react
-          - typescript
-          - terrraform
-          - python
-          - django
-          - github actions
-          - aws
-          - leadership
+      - Ground-up rebuild of React/TypeScript + Django PWA with AI-enhanced development workflows
+      - Custom MCP server and implemented multi-agent AI pipeline for automated business processes:w
+      - End-to-end CI/CD pipeline with Terraform creating isolated AWS preview environments per pull request
+      - GitHub Actions workflow for blue-green deployments
   - position: Software Engineer
     company: BairesDev / SunRun
-    starting_date: 02/2023
-    ending_date: 11/2024
-    type: full time
-    achievements: Quick adaptation in a complex environment with multiple technologies (Google Cloud Platform, AWS, Apache Airflow, Node.js, Typescript, Python, Kotlin, Terraform)
-    projects:
-      - name: Data Ingestion for the Data integration team
-        starting_date: 02/2023
-        ending_date: 11/2024
-        description: Maintenance of the solar panel data ingestion backend softwares
-        outcome:
-          - Maintained, deployed and reviewed multiple Node.js projects
-          - Researched ways to improve query response times on Google Cloud Platform
-          - Adapted Terraform scripts
-          - Migrated ingestion pipeline from GCP to AWS
-        tags:
-          - nodejs
-          - typescript
-          - terrraform
-          - python
-          - kotlin
+    starting_date: Feb 2023
+    ending_date: Nov 2024
+    achievements: 
+      - Maintenance and optimization of solar panel data ingestion systems across multi-cloud environments (GCP, AWS)
+      - Migration of critical data pipelines from GCP to AWS
+      - Collaborated across multiple technology stacks (Node.js, Python, Kotlin, Apache Airflow)
   - position: Head of DevOps Engineering
     company: Brazilian Superior Court of Labour
-    starting_date: 04/2021
-    ending_date: 02/2023
-    type: full time
-    achievements: As a supervisor, I implemented infrastructure as code practices throughout the team.
-    projects:
-      - name: Deployment of SEI (Brazilian Electronic Information System)
-        url: https://sei.tst.jus.br/
-        starting_date: 04/2021
-        ending_date: 06/2021
-        description: Deploy the Brazilian Electronic Information System
-        outcome:
-          - Created Ansible scripts to automate the deployment
-          - Deployed multiple environments (development, training, homologation, production)
-          - The application uses PHP, Apache Solr, memcached and Oracle database
-        tags:
-          - ansible
-      - name: Deployment and maintenance of PJe (Brazilian Electronic Judicial Process)
-        url: https://pje.tst.jus.br/
-        starting_date: 07/2021
-        ending_date: 02/2023
-        description: Deploy and maintain PJe using a Kubernetes Cluster
-        outcome:
-          - Deployed a Kubernetes cluster using Kubespray
-          - Deployed a monitoring system using elastic stack (Kibana, Fluentd and Elasticsearch)
-          - Production cluster and Homologation cluster
-          - Application is upgraded multiple times since launch and we are responsible to deploy the upgrades
-        tags:
-          - kubernetes
-          - docker
-          - elasticsearch
-          - kibana
-          - fluentd
-      - name: Migration of DEJT from on premise to AWS
-        url: https://dejt.tst.jus.br/
-        starting_date: 10/2022
-        ending_date: 02/2023
-        description: Migrate Java application from on-premises infrastructure to Amazon Web Services (AWS)
-        outcome:
-          - Used Terraform and GitLab CI pipeline to provision AWS resources
-          - Used Packer and Ansible files to generate application EC2 AMI
-        tags:
-          - aws
-          - terraform
-          - packer
-          - ansible
-  - position: Full-Stack Developer
+    starting_date: Abr 2021
+    ending_date: Feb 2023
+    achievements:
+      - Led DevOps team implementing infrastructure as code practices across government systems
+      - Deployed and maintained production Kubernetes clusters serving millions of judicial processes
+      - Automated deployment of critical government applications using Ansible and Terraform
+      - Migrated legacy systems to AWS cloud infrastructure with comprehensive monitoring
+  - position: Senior Full Stack Developer & Software Architect
     company: Brazilian Superior Court of Labour
-    starting_date: 01/2014
-    ending_date: 04/2021
-    type: full time
-    achievements: In addition to my responsibilities, I implemented the use of Git within our projects and installed the organization's first GitLab server, resulting in adoption of the tool across the organization. Additionally, I created several bash scripts to streamline the initial setup process for developers' machines.
-    projects:
-      - name: Precatory payment and management system
-        url: https://precatoriosweb.jt.jus.br/
-        starting_date: 01/2014
-        ending_date: 05/2016
-        description: Judicial debt registry system for the Brazilian Labor Court
-        outcome:
-          - The project had already started when I joined.
-          - Used Java, VRaptor, JavaScript, jQuery, Bootstrap and AngularJS for the development of this project.
-          - First project to use AngularJS in the organization
-        tags:
-          - java
-          - javascript
-          - jquery
-          - bootstrap
-          - vraptor
-          - angularjs
-      - name: Retired and pensioner management system
-        url: https://aplicacao7.tst.jus.br/rap/
-        starting_date: 06/2016
-        ending_date: 04/2017
-        description: System to update records of retirees and pensioners of the Brazilian Superior Labor Court
-        outcome:
-          - Developed the backend using Java EE
-          - Frontend used JavaScript, React, Redux, Webpack and Bootstrap
-          - First project to adopt React in the organization
-        tags:
-          - java
-          - javascript
-          - react
-          - redux
-          - webpack
-          - bootstrap
-      - name: TST-Saúde
-        url: https://tstsaude.tst.jus.br/
-        starting_date: 05/2017
-        ending_date: 02/2018
-        description: System to manage authorization flow and payments of the institution's health plan
-        outcome:
-          - The system already existed but didn't implement the most recent protocol from ANS (Brazilian National Health Agency)
-          - Took the oportunity to upgrade the system frameworks
-          - Migrated JSF and AngularJS pages to React and newer Java EE backend
-          - UX/UI improved a lot
-          - Framework migration was done progressively
-      - name: eSocial-JT
-        url: https://github.com/tst-labs/esocial/
-        starting_date: 03/2018
-        ending_date: 09/2018
-        description: Project to send data to fulfill the needs of the Brazilian Federal Government's eSocial system
-        outcome:
-          - The solution was developed in self-contained and independent modules
-          - It can be used by any Brazilian organization, both public and private
-          - The backend was developed using Spring Boot and distributed via Docker
-          - A simple JavaScript, React frontend, was developed to help monitor the data sent by the project
-          - The project was released as Open source in GitHub
-        tags:
-          - docker
-          - javascript
-          - open source
-          - spring boot
-          - spring
-          - react
-          - material ui
-      - name: Software Architect
-        starting_date: 10/2018
-        ending_date: 03/2021
-        description: In this role, I collaborated with another architect to enhance the experience of developers within the organization by managing multiple projects and addressing complex problems
-        outcome:
-          - Developed CI/CD scripts to streamline the setup and deployment of development projects
-          - Created docker base images used by multiple development teams
-          - Consultant to several teams to solve complex problems in React, Javascript, Docker, Java and deployment files
-          - Created reference kubernetes deployment files used by other teams
-        tags:
-          - docker
-          - javascript
-          - react
-          - kubernetes
-          - nodejs
-          - java
-      - name: Keycloak integration
-        starting_date: 11/2020
-        ending_date: 03/2021
-        description: Project to integrate Kecloak in multiple projects
-        outcome:
-          - Migrated multiple applications to OpenID Connect, replacing the in-house single sign-on solution
-          - Integrated multiple third-party applications using the OpenID Connect
-        tags:
-          - keycloak
-          - openid connect
-      - name: TST API Hub
-        starting_date: 11/2020
-        ending_date: 03/2021
-        description: Project to concentrate and search the organization Web APIs
-        outcome:
-          - Backend was developed using Node.js, JavaScript and Express
-          - Frontend was developed using JavaScript, React and Tailwind
-          - Containerized and deployed to Kubernetes
-          - Developed CI/CD scripts for registering APIs
-        tags:
-          - docker
-          - javascript
-          - react
-          - kubernetes
-          - nodejs
-          - express
-          - tailwind
-  - position: PHP Web Developer
-    company: Capes
-    starting_date: 04/2012
-    ending_date: 01/2014
-    type: full time
-    achievements: During a high usage period, we used XHProf to identify performance issues in the application and optimized database queries by implementing native queries and caching with memcached. To make the process more efficient, I developed a library for building native queries in PHP.
-    projects:
-      - name: Web application to register candidates for multiple scholarship programs
-        url: https://inscricao.capes.gov.br
-        starting_date: 01/2012
-        ending_date: 06/2012
-        description: Develop modules to register candidates
-        outcome:
-          - PHP System already existed when I joined the project
-          - Database was Postgres and was mostly designed
-          - Had to learn and use house made framework
-          - Created the module to register candidates
-        tags:
-          - php
-          - html
-          - css
-          - javascript
-          - jquery
-          - postgres
-      - name: Web application to manage Science Without Borders subscriptions
-        url: https://www.gov.br/cnpq/pt-br/acesso-a-informacao/acoes-e-programas/programas/ciencia-sem-fronteiras
-        starting_date: 06/2012
-        ending_date: 01/2014
-        description: Web application to manage Science Without Borders subscriptions
-        outcome:
-          - Developed the module to register candidates
-          - Improved performance and UX of the module to analyze subscriptions
-        tags:
-          - php
-          - html
-          - css
-          - javascript
-          - jquery
-          - postgres
-  - position: Java Web Developer
-    company: Suricattus
-    starting_date: 06/2011
-    ending_date: 04/2012
-    type: full time
-    achievements: Using Jasper Reports, created a very dynamic and programmatically customizable report.
-    projects:
-      - name: Sales tracking system
-        starting_date: 06/2011
-        ending_date: 04/2012
-        description: Develop sales management and reports system
-        outcome:
-          - JSF system to manage sales data
-          - Jasper Reports and Quartz scheduled task to send business intelligence daily reports
-        tags:
-          - spring
-          - jsf
-          - jasper
-          - quartz
-  - position: PHP Web Developer and Linux System Administrator
-    company: P21
-    starting_date: 10/2009
-    ending_date: 06/2011
-    type: full time
-    achievements: I made significant contributions to the team's success by developing an efficient applet for customers to digitally sign documents, as well as implementing validation logic using PHP. Additionally, I took on additional responsibilities, such as maintaining the servers and databases for the system, and creating a backup policy to ensure future data preservation.
-    projects:
-      - name: Inter bank and registry communication system
-        starting_date: 10/2009
-        ending_date: 06/2011
-        description: Develop and implement a robust interbank and registry communication system for multiple Brazilian states
-        outcome:
-          - Developed a digital document signer and verification system (using Brazilian e-CPF and e-CNPJ)
-          - Managed the entire application infrastrucure (Apache, PHP and MySQL) using virtual machines and Linux
-        tags:
-          - php
-          - linux
-
-side_projects:
-  - name: Dominia
-    url: https://sistema.dominia.app/
-    role: Co-founder DevOps and Full-stack engineer
-    starting_date: 01/2021
-    ending_date: 02/2023
-    description: System for searching and analyzing legal decisions of the Brazilian judicial system.
+    starting_date: Jan 2014
+    ending_date: Apr 2021
     achievements:
-      - Built the entire infrastructure, assisted in deploying R containers to Kubernetes, developed and deployed both the backend and frontend of the application.
-    outcome:
-      - K3S Kubernetes infrastructure deployed to Digital Ocean virtual machines using GitHub Actions and Terraform
-      - Deployed a full text search application using Elasticsearch
-      - Reporting system to display the likelihood of a topic being granted or rejected
-      - Application built using Next.js (React and Typescript)
-    tags:
-      - typescript
-      - react
-      - next.js
-      - elasticsearch
-      - monogodb
-      - terraform
-      - kubernetes
-  - name: Aprovometro
-    url: https://sistema.dominia.app/
-    role: Mobile Developer
-    starting_date: 06/2017
-    ending_date: 12/2017
-    description: The project aims to use AI to predict the likelihood of a proposed law's approval in the Brazilian congress before it goes to a vote. This will provide valuable insights into the chances of the legislation being passed.
-    achievements:
-      - Second place on Legislative Challenge (http://desafio.leg.br/) with project Aprovometro
-    outcome:
-      - Mobile application using Ionic framework (Angular, TypeScript)
-    tags:
-      - angular
-      - ionic
-      - typescript
-  - name: CRA 21 Mobile
-    role: Mobile developer
-    starting_date: 01/2016
-    ending_date: 01/2017
-    achievements:
-      - Acquired the necessary skills to program native Swift iOS applications and successfully delivered it on schedule, resulting in complete customer satisfaction
-    outcome:
-      - Native Android and iOS mobile application to visualize registry reports
-        - https://play.google.com/store/apps/details?id=br.com.p21sistemas.cra21
-        - https://apps.apple.com/us/app/cra21/id1124222237
-      - Applications communicated with PHP backend
-    tags:
-      - android
-      - ios
-  - name: Vitalab
-    role: Web developer, mobile developer and linux system administrator
-    starting_date: 11/2014
-    ending_date: 01/2016
-    description: System to manage technical visits
-    achievements:
-      - Acquired the necessary skills to program native Java Android applications and successfully delivered it on schedule, resulting in complete customer satisfaction
-    outcome:
-      - Laravel PHP web application to manage the techcnical visits
-      - Android application used by technicians to receive service information and collect customer signatures
-    tags:
-      - android
-      - php
-  - name: Garra
-    role: Android mobile developer
-    starting_date: 12/2013
-    ending_date: 11/2014
-    description: Mobile application integrated with fleet management system
-    outcome:
-      - A webview Android application where clients could login, monitor and secure their cars 
-    tags:
-      - android
-  - name: React notification library contribution
-    role: Frontend developer
-    outcome: 
-      - Bug fix for React notification library (https://github.com/chadly/react-bs-notifier)
-    tags:
-      - react
+      - Architected and developed large-scale judicial systems serving nationwide court operations
+      - Pioneered React adoption and modernized legacy AngularJS applications
+      - Established organization's first GitLab instance and CI/CD practices
+      - Created reusable Docker base images and Kubernetes deployment templates for development teams
   
 education:
-  - institute: Universidade de Brasília
-    info: Computation 2011
+  - institute: Universidade de Brasília (2011)
+    info: Computer Science
   - institute: Casa Thomas Jefferson
     info: Advanced English
 
 technologies:
-  - JavaScript/ES6, TypeScript, Node.js, Java, PHP, Python
-  - React, React Router, Next.js, Redux, Webpack, Jest
-  - Android, iOS, React Native
-  - Linux, Heroku, AWS, Digital Ocean, Cloudflare, Docker, Kubernetes, Ansible, Terraform
+  - "AI Development: Cursor AI, Model Context Protocol (MCP), Multi-Agent Systems"
+  - "Frontend: React, TypeScript, Next.js, Redux, Vite"
+  - "Backend: Python/Django, Node.js, Java/Spring Boot"
+  - "Cloud & DevOps: AWS, Terraform, Kubernetes, Docker, GitHub Actions"
+  - "Data: PostgreSQL, Elasticsearch, Apache Airflow"

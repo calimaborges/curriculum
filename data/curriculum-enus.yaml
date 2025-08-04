@@ -1,48 +1,47 @@
 personal:
   title: Carlos Augusto Borges
-  subtitle: Full Stack Architect
+  subtitle: Full Stack Engineer
   location: Brasilia, Federal District, Brazil
 
 summary:
-  - Full Stack Architect with 16 years of experience building scalable web applications and cloud infrastructure. Expert in React/TypeScript + Python/Django stacks with advanced AI development workflows using Cursor, MCP servers, and multi-agent systems. Proven track record leading teams and implementing DevOps practices with Terraform, Kubernetes, and AWS infrastructure.
+  - Full Stack Engineer with 16 years of experience building web applications and cloud infrastructure. Expert in TypeScript, Node.js and React. Proven track record leading teams and implementing DevOps practices with Terraform, Kubernetes, and AWS infrastructure.
+
 
 work_history:
-  - position: Full Stack Architect
+  - position: Senior Full Stack Engineer
     company: Kinection.ai
     starting_date: Nov 2024
     ending_date: Present
     achievements: 
-      - Ground-up rebuild of React/TypeScript + Django PWA with AI-enhanced development workflows
-      - Custom MCP server and implemented multi-agent AI pipeline for automated business processes:w
+      - Ground-up rebuild of application using React, TypeScript and Tailwind integrating with AI workflows
+      - Custom MCP server in Python and multi-agent AI pipeline for automated business processes
       - End-to-end CI/CD pipeline with Terraform creating isolated AWS preview environments per pull request
-      - GitHub Actions workflow for blue-green deployments
-  - position: Software Engineer
+  - position: Senior Backend Engineer
     company: BairesDev / SunRun
     starting_date: Feb 2023
     ending_date: Nov 2024
     achievements: 
+      - Pipeline for solar data ingestion using Node.js and Typescript
       - Maintenance and optimization of solar panel data ingestion systems across multi-cloud environments (GCP, AWS)
       - Migration of critical data pipelines from GCP to AWS
-      - Collaborated across multiple technology stacks (Node.js, Python, Kotlin, Apache Airflow)
   - position: Head of DevOps Engineering
     company: Brazilian Superior Court of Labour
     starting_date: Abr 2021
     ending_date: Feb 2023
     achievements:
       - Led DevOps team implementing infrastructure as code practices across government systems
-      - Deployed and maintained production Kubernetes clusters serving millions of judicial processes
-      - Automated deployment of critical government applications using Ansible and Terraform
-      - Migrated legacy systems to AWS cloud infrastructure with comprehensive monitoring
-  - position: Senior Full Stack Developer & Software Architect
+      - Deployment and maintenance of production Kubernetes clusters serving millions of judicial processes.
+      - Deployment of critical government applications using Ansible and Terraform
+      - Migration of Java legacy systems to AWS cloud infrastructure with comprehensive monitoring
+  - position: Senior Full Stack Engineer & Software Architect
     company: Brazilian Superior Court of Labour
     starting_date: Jan 2014
     ending_date: Apr 2021
     achievements:
-      - Architected and developed large-scale judicial systems serving nationwide court operations
-      - Pioneered React adoption and modernized legacy AngularJS applications
+      - Architect and developer of large-scale judicial systems serving nationwide court operations
+      - Pioneered React adoption and modernized legacy JSF and AngularJS applications
       - Established organization's first GitLab instance and CI/CD practices
-      - Created reusable Docker base images and Kubernetes deployment templates for development teams
-  
+
 education:
   - institute: Universidade de Brasília (2011)
     info: Computer Science
@@ -50,8 +49,8 @@ education:
     info: Advanced English
 
 technologies:
-  - "AI Development: Cursor AI, Model Context Protocol (MCP), Multi-Agent Systems"
+  - "AI Development: Model Context Protocol (MCP) server, Multi-Agent Systems"
   - "Frontend: React, TypeScript, Next.js, Redux, Vite"
-  - "Backend: Python/Django, Node.js, Java/Spring Boot"
+  - "Backend: Node.js, Python/Django, Java/Spring Boot"
   - "Cloud & DevOps: AWS, Terraform, Kubernetes, Docker, GitHub Actions"
   - "Data: PostgreSQL, Elasticsearch, Apache Airflow"

@@ -1,47 +1,45 @@
 personal:
   title: Carlos Augusto Borges
-  subtitle: Arquiteto Full Stack
+  subtitle: Engenheiro Full Stack
   location: Brasilia, Distrito Federal, Brasil
 
 summary:
-  - Arquiteto Full Stack com 16 anos de experiência em desenvolvimento de aplicações web escaláveis e arquitetura de infraestrutura em nuvem. Especialista em React/TypeScript + Python/Django, com workflows avançados de desenvolvimento usando IA (Cursor, servidores MCP e sistemas multiagentes). Histórico comprovado em liderança técnica e implantação de práticas DevOps com Terraform, Kubernetes e AWS.
+  - Arquiteto Full Stack com 16 anos de experiência construindo aplicações web e infraestrutura em nuvem. Especialista em TypeScript, Node.js e React. Histórico comprovado liderando equipes e implementando práticas de DevOps com Terraform, Kubernetes e infraestrutura AWS.
 
 work_history:
-  - position: Arquiteto Full Stack
+  - position: Engenheiro Full Stack Sênior
     company: Kinection.ai
     starting_date: Nov 2024
-    ending_date: Present
+    ending_date: Atual
     achievements: 
-      - Rebuild do PWA (React/TypeScript + Django) com workflows de desenvolvimento aprimorados por IA
-      - Desenvolvimento de servidor MCP e implementação de pipeline multiagente para automação de processos
-      - Construção de workflow para deploy blue/green com GitHub Actions
-  - position: Engenheiro de Software
+      - Reconstrução completa de aplicação em React/TypeScript integrando fluxos de trabalho de IA
+      - Servidor MCP personalizado em Python e pipeline multiagente de IA para automação de processos de negócios
+      - Pipeline CI/CD de ponta a ponta com Terraform criando ambientes AWS isolados por pull request
+  - position: Engenheiro Backend Sênior
     company: BairesDev / SunRun
     starting_date: Fev 2023
     ending_date: Nov 2024
     achievements: 
-      - Manutenção e otimização de sistemas de ingestão de dados solares em ambientes multicloud (GCP, AWS)
-      - Migração de pipelines críticos de GCP para AWS sem downtime
-      - Desenvolvimento com múltiplas stacks (Node.js, Python, Kotlin, Apache Airflow)
-  - position: Supervisor da equipe de DevOps
+      - Pipeline para ingestão de dados solares utilizando Node.js e TypeScript
+      - Manutenção e otimização de sistemas de ingestão de dados de painéis solares em ambientes multi-cloud (GCP, AWS)
+      - Migração de pipelines críticos de dados de GCP para AWS
+  - position: Chefe de Engenharia DevOps
     company: Tribunal Superior do Trabalho
     starting_date: Abr 2021
     ending_date: Fev 2023
     achievements:
-      - Liderança da equipe DevOps implantando Infrastructure as Code em sistemas governamentais
+      - Lider de equipe DevOps implementando práticas de infraestrutura como código em sistemas do governo
       - Implantação e manutenção de clusters Kubernetes atendendo milhões de processos judiciais
-      - Automação de deploys críticos com Ansible e Terraform
+      - Deploys críticos de infraestrutura governamental com Ansible e Terraform
       - Migração de sistemas legados para AWS, com monitoramento completo
-  - position: Full Stack Sênior & Arquiteto de Software
+  - position: Engenheiro Full Stack Sênior & Arquiteto de Software
     company: Tribunal Superior do Trabalho
     starting_date: Jan 2014
     ending_date: Abr 2021
     achievements:
       - Arquitetura e desenvolvimento de sistemas judiciais de grande porte
-      - Introdução do React e modernização de aplicações legadas AngularJS
-      - Implantação do primeiro servidor GitLab e práticas CI/CD
-      - Criação de imagens Docker reutilizáveis e templates Kubernetes
-
+      - Pioneiro na adoção de React e modernizaço de aplicações legadas JSF e AngularJS
+      - Implantou a primeira instância GitLab e práticas de CI/CD da organização
   
 education:
   - institute: Universidade de Brasília (2011)
@@ -50,9 +48,9 @@ education:
     info: Inglês Avançado
 
 technologies:
-  - "Desenvolvimento com IA: Cursor, Protocolo MCP, Sistemas Multiagentes"
-  - "Frontend: React, TypeScript, Next.js, Redux, Vite"
-  - "Backend: Python/Django, Node.js, Java/Spring Boot"
+  - "Desenvolvimento com IA: Servidor MCP (Model Context Protocol), Sistemas Multiagentes"
+  - "Frontend: React/Typescript, Next.js/Typescript, Redux, Vite"
+  - "Backend: Node.js/Typescript, Python/Django, Java/Spring Boot"
   - "Cloud & DevOps: AWS, Terraform, Kubernetes, Docker, GitHub Actions"
   - "Dados: PostgreSQL, Elasticsearch, Apache Airflow"
 

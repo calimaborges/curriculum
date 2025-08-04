@@ -5,7 +5,7 @@ import Viewer from "../components/viewer";
 import CurriculumType from "../libs/types/curriculum-type";
 import ContactType from "../libs/types/contact-type";
 
-const language = "ptbr";
+const language = "enus";
 
 async function getData() {
   const curriculumDirectory = path.join(process.cwd(), "data");

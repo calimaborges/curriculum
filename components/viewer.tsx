@@ -10,10 +10,6 @@ type Props = {
   language: "ptbr" | "enus";
 };
 
-function hasWindow() {
-  return typeof window === "object";
-}
-
 export default function Viewer({ data, language }: Props) {
   const { height, width } = useWindowDimensions();
   return (

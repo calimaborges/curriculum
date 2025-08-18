@@ -16,7 +16,7 @@ export default function EducationItem({ item }: Props) {
 
 const styles = StyleSheet.create({
   container: {
-    fontSize: 10,
+    fontSize: 9,
     paddingHorizontal: 4,
     lineHeight: 1.5,
   },

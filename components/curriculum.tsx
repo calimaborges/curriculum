@@ -12,7 +12,6 @@ import CurriculumType from "../libs/types/curriculum-type";
 import { baseFont, boldFont, obliqueFont } from "../libs/font-names";
 import WorkHistoryItem from "./work-history-item";
 import EducationItem from "./education-item";
-import ProjectView from "./project-view";
 
 type Props = {
   data: CurriculumType;
@@ -87,7 +86,7 @@ const styles = StyleSheet.create({
   },
   location: {
     paddingTop: 3,
-    fontSize: 12,
+    fontSize: 10,
   },
   contactsContainer: {
     fontSize: 10,
@@ -101,7 +100,7 @@ const styles = StyleSheet.create({
   summaryItem: {
     paddingVertical: 5,
     paddingHorizontal: 2,
-    fontSize: 10,
+    fontSize: 9,
     lineHeight: 1.3,
   },
   topSection: {
@@ -131,7 +130,7 @@ const styles = StyleSheet.create({
   technologieItem: {
     paddingVertical: 1,
     paddingHorizontal: 4,
-    fontSize: 10,
+    fontSize: 9,
     lineHeight: 1.3,
   },
   disclaimer: {

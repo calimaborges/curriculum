@@ -24,6 +24,17 @@ work_history:
       - Pipeline for solar data ingestion using Node.js and Typescript
       - Maintenance and optimization of solar panel data ingestion systems across multi-cloud environments (GCP, AWS)
       - Migration of critical data pipelines from GCP to AWS
+  - position: Full Stack Engineer
+    type: "part time"
+    company: Dominia
+    starting_date: Jan 2021
+    ending_date: Feb 2023
+    achievements:
+      - Built and maintained full infrastructure for a SaaS analyzing Brazilian legal decisions
+      - Designed and delivered applications with Next.js (React, TypeScript) and Elasticsearch for full-text search
+      - Deployed K3S Kubernetes clusters on Digital Ocean with CI/CD using GitHub Actions and Terraform
+      - Integrated backend and frontend, managing environments, search features, and user-facing reports
+      - Assisted in deploying R containers for advanced analytics in Kubernetes
   - position: Head of DevOps Engineering
     company: Brazilian Superior Court of Labour
     starting_date: Abr 2021

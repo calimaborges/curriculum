@@ -1,7 +1,6 @@
 import { StyleSheet, Text, View } from "@react-pdf/renderer";
 import { boldFont, obliqueFont } from "../libs/font-names";
 import WorkHistoryItemType from "../libs/types/work-history-item-type";
-import ProjectView from "./project-view";
 
 type Props = {
   item: WorkHistoryItemType;
@@ -14,7 +13,7 @@ export default function WorkHistoryItem({ item, language }: Props) {
       <View style={styles.header}>
         <Text style={styles.title}>{item.position} </Text>
         <Text style={styles.organization}>
-          | {item.company} | {item.starting_date} - {item.ending_date}
+          | {item.company} | {item.starting_date} - {item.ending_date} {item.type && `| ${item.type}`}
         </Text>
       </View>
       <View style={styles.body}>
@@ -34,7 +33,7 @@ const styles = StyleSheet.create({
   container: {
     paddingVertical: 3,
     paddingHorizontal: 2,
-    fontSize: 10,
+    fontSize: 9,
   },
   body: {
     paddingHorizontal: 8,
